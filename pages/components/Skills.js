@@ -68,7 +68,7 @@ export default function Skills({ theme }) {
   return (
     <div>
       <h3 className={`skills-heading ${theme} `}>
-        Some of the tools I've used before...
+        <span>Some of the tools I've used before...</span>
       </h3>
       <div className={`skills-block ${theme}`}>
         <div className={`skill-card-container ${theme}`}>
