@@ -28,6 +28,12 @@ html {
   display: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+}
+
 section {
   height: 100vh;
 }
@@ -101,6 +107,9 @@ section {
   .avatar {
     margin-bottom: 2rem;
   }
+  .skills.dark {
+    padding-top: 12rem;
+  }
   .skills-block.dark {
     display: flex;
     flex-direction: column;
@@ -155,11 +164,14 @@ section {
     left: 15vw !important;
     width: 75% !important;
   }
+  .work.dark {
+  }
   .work-container {
     height: 275vh !important;
   }
   .work-card-box {
     padding-top: 40rem;
+    padding-bottom: 50rem;
     height: 200vh !important;
   }
   .work-card.light {
